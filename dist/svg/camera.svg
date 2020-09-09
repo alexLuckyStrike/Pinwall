@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108" height="96" viewBox="0 0 108 96">
+  <defs>
+    <style>
+      .cls-1 {
+      fill: #fff;
+      fill-opacity: 0.9;
+      stroke: #000;
+      stroke-linejoin: round;
+      stroke-opacity: 0.18;
+      stroke-width: 1px;
+      fill-rule: evenodd;
+      filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="843" y="123" width="109" height="97" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="1" dy="1.732" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.414"/>
+      <feFlood result="flood" flood-opacity="0.12"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="846" y="126" width="103" height="90" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAzIiBoZWlnaHQ9IjkwIiB2aWV3Qm94PSIwIDAgMTAzIDkwIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBvcGFjaXR5OiAwLjE0OwogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iNTEuNSIgeTE9IjkwIiB4Mj0iNTEuNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9Ii0wLjAwNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEuMDA1IiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjEwMyIgaGVpZ2h0PSI5MCIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur-2" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#fff" flood-opacity="0.32"/>
+      <feComposite result="composite-3" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2" dx="0.5" dy="0.866"/>
+      <feComposite result="composite-4" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="vividLight" in2="blend-2"/>
+    </filter>
+  </defs>
+  <g transform="translate(-843.5 -123.5)" style="fill: #fff; filter: url(#filter)">
+    <path id="camera" class="cls-1" d="M855.656,138.857h83.687A9.65,9.65,0,0,1,949,148.5v57.857A9.65,9.65,0,0,1,939.343,216H855.656A9.65,9.65,0,0,1,846,206.356V148.5A9.65,9.65,0,0,1,855.656,138.857ZM881.406,126h32.187c1.778,0,3.219,1.919,3.219,4.286v7.5c0,2.367-1.441,4.286-3.219,4.286H881.406c-1.778,0-3.219-1.919-3.219-4.286v-7.5C878.187,127.918,879.628,126,881.406,126ZM897.5,148.5a28.929,28.929,0,1,1-28.968,28.929A28.949,28.949,0,0,1,897.5,148.5Zm0,9.643a19.286,19.286,0,1,1-19.312,19.286A19.3,19.3,0,0,1,897.5,158.142Zm0,12.858a6.429,6.429,0,1,1-6.437,6.428A6.433,6.433,0,0,1,897.5,171Zm-12.875-38.572h25.75v3.214h-25.75v-3.214Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-843.5 -123.5)" xlink:href="#camera" style="stroke: #000; filter: none; fill: none"/>
+</svg>

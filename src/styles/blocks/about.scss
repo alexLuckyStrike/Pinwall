@@ -1,0 +1,37 @@
+.about{
+  min-height: 376px;
+  background-color: rgb(255,255,255);
+
+}
+
+.about-context{
+text-align: center;
+  padding-top: 55px;
+
+  h3{
+    font-size: 30px;
+    line-height: 49px;
+    color:rgb(126,126,126);
+  }
+
+}
+
+.about-context__text{
+  font-size: 14px;
+  line-height: 22px;
+  color:rgb(126,126,126);
+  margin-top: 20px;
+}
+
+.about-context__btn{
+  display: block;
+  width: 167px;
+  height: 45px;
+  margin: 40px auto;
+  text-transform: uppercase;
+  color:rgb(255,255,255);
+  background-color: rgb(29,200,150);
+  border:none;
+  outline: none;
+  border-radius: 5px;
+}

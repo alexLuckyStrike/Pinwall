@@ -1,0 +1,19 @@
+.labels{
+  background-color: rgb(244,244,244);
+  min-height: 122px;
+}
+
+.labels-range{
+  display: flex;
+  padding-left: 15px;
+  padding-right: 35px;
+  justify-content: space-between;
+  min-height: inherit;
+}
+
+.labels-range__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: inherit;
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("../target/fonts/OpenSans-Light.ttf") format('ttf');
+}
+
+
+@font-face {
+    font-family: 'Open Sans',sans-serif;
+    src:url("../target/fonts/OpenSans-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src:url("../target/fonts/Lobster-Regular.ttf") format('ttf');
+}

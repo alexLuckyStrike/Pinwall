@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113" height="95" viewBox="0 0 113 95">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-opacity: 0.9;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-opacity: 0.18;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="522" y="127" width="114" height="96" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="1" dy="1.732" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.414"/>
+      <feFlood result="flood" flood-opacity="0.12"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="525" y="130" width="108" height="88.094" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTA4IiBoZWlnaHQ9Ijg4LjA5NCIgdmlld0JveD0iMCAwIDEwOCA4OC4wOTQiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIG9wYWNpdHk6IDAuMTQ7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSI1NCIgeTE9Ijg4LjA5NCIgeDI9IjU0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iLTAuMDA1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMS4wMDUiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTA4IiBoZWlnaHQ9Ijg4LjA5NCIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur-2" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#fff" flood-opacity="0.32"/>
+      <feComposite result="composite-3" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2" dx="0.5" dy="0.866"/>
+      <feComposite result="composite-4" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="vividLight" in2="blend-2"/>
+    </filter>
+  </defs>
+  <g transform="translate(-522.5 -127.5)" style="fill: #fff; filter: url(#filter)">
+    <path id="twitter" class="cls-1" d="M633,140.141l-10.125,10.142v1.69a21.87,21.87,0,0,1-.729,5.344c-0.236,13.951-4.673,32.452-22.9,47.055C563.4,233.1,525,207.752,525,207.752c30.375,0,30.375-10.142,30.375-10.142-6.75,0-20.25-13.522-20.25-13.522,3.375,3.381,10.125,0,10.125,0-16.875-10.141-16.875-20.283-16.875-20.283,3.375,3.38,10.125,0,10.125,0-16.875-13.522-6.75-30.425-6.75-30.425,3.375,16.9,47.25,23.664,47.25,23.664l0.558-.28a40.173,40.173,0,0,1-.558-6.481C579,138.147,588.821,130,600.937,130a21.775,21.775,0,0,1,16.592,7.748l1.97-.986L629.624,130l-6.75,13.523Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-522.5 -127.5)" xlink:href="#twitter" style="stroke: #000; filter: none; fill: none"/>
+</svg>
